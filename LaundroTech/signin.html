@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-wrapper">
+  <div class="signup-container">
+    <form id="signinForm">
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+        
+        <br><label for="password">Password</label>
+        <input type="password" id="password" required />
+        
+        <br><button type="submit" class="sibtn">Sign In</button>
+        <p style="color: #004a99;">Don't have account?</p>
+        <button onclick="window.location.href = 'signup.html'"style="padding: 10px 20px; background-color: #004a99; color: white; margin: top 10px; border-radius: 8px; cursor: pointer; font-size: 16px;">Sign Up</button>
+
+      </form>
+      
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

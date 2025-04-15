@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaundroTech</title>
+  <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+  <header>
+    <a href="home.html">
+      <div class="logo">
+        <img src="logo1.png" alt="LaundroTech" />
+        <p>LaundroTech</p>
+      </div>
+    </a>
+    <nav>
+      <div class="menu">&#9776;</div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <p><strong>Time:</strong> 4:30 pm</p>
+    <p><strong>Machine 1:</strong> <span id="machine1">FREE</span></p>
+    <p><strong>Machine 2:</strong> FREE</p>
+
+    <button class="bookbutton" id="showFormBtn">BOOK NOW!</button>
+
+    <form id="bookingForm">
+      <label for="name"  style="color: #004a99;">Enter your name:</label><br />
+      <input type="text" id="name" name="name" required><br><br>
+      <button type="submit" style="padding: 10px 20px; background-color: #004a99; color: white; margin: top 10px; border-radius: 8px; cursor: pointer; font-size: 16px;" >Confirm Booking</button>
+    </form>
+  </div>
+<div id="doneBtnContainer" style="display:none;">
+    <button id="doneBtn" style="padding: 10px 20px; background-color: #004a99; color: white; margin: top 10px; border-radius: 8px; cursor: pointer; font-size: 16px;">Done</button>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 LaundroTech. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

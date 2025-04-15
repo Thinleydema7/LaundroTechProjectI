@@ -1,0 +1,42 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LaundroTech - Employee Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a href="home.html">
+      <div class="logo">
+        <img src="logo1.png" alt="LaundroTech" />
+        <p>LaundroTech</p>
+      </div>
+    </a>
+    <nav>
+      <div class="menu">&#9776;</div>
+    </nav>
+  </header>
+
+
+  <h2 style=" margin-top: 5px;">Leave Your Feedback</h2>
+
+  <form id="feedbackForm">
+    <textarea id="feedbackText" placeholder="Write your feedback here..." required></textarea><br>
+    <button type="submit" class="fdbtn">Submit Feedback</button>
+  </form>
+
+  <h3>Feedback Received:</h3>
+  <ul id="feedbackListContainer"></ul>
+  <footer>
+    <p>&copy; 2025 LaundroTech. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
